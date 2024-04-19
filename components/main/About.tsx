@@ -2,27 +2,26 @@
 import React from "react";
 
 import { motion } from "framer-motion";
-import { slideInFromTop } from "@/utils/motion";
+import { slideInFromTop, slideInFromRight } from "@/utils/motion";
 import Image from "next/image";
 
-const Encryption = () => {
+const About = () => {
   return (
     <section
     id="about"
     >
 
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
+    <div className="flex flex-row relative items-center justify-center mt-32 min-h-screen w-full h-full">
+      <div className="absolute w-auto top-10 z-[5]">
         <motion.div
+          animate="visible"
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          Performance
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {" "}
-            &{" "}
+            About{" "}
           </span>
-          Security
         </motion.div>
       </div>
 
@@ -49,8 +48,8 @@ const Encryption = () => {
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
+        <div className="Welcome-text-[20px] font-medium text-center text-gray-300">
+          Certifications 
         </div>
       </div>
 
@@ -70,4 +69,4 @@ const Encryption = () => {
   );
 };
 
-export default Encryption;
+export default About;

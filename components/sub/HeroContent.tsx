@@ -22,9 +22,9 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-[#b49bff] mr-[7px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+          Built Using Next.js
           </h1>
         </motion.div>
 
@@ -33,12 +33,11 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Welcome to my
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Portfolio{" "}
             </span>
-            project exprience
           </span>
         </motion.div>
 
@@ -49,12 +48,15 @@ const HeroContent = () => {
           I&apos;m a Network Tech with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
+       
         <motion.a
+          href="https://calendly.com/login"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Email
         </motion.a>
+       
       </div>
 
       <motion.div

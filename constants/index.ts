@@ -81,17 +81,16 @@ export const Skill_data = [
   ];
   
   export const Socials = [
+
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Github",
+      src: "/gitwhite.png",
+      url: "https://github.com/kennypalacio/KennyPalacio.github.io.git"
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "Linkedin",
+      src: "/linkedin.png",
+      url: "https://linkedin.com/in/kennypalacio"
     },
   ];
   

@@ -16,7 +16,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/profilepic.png"
             alt="logo"
             width={70}
             height={70}
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about" className="cursor-pointer">
-              About me
+              About
             </a>
             <a href="#skills" className="cursor-pointer">
               Skills
@@ -44,6 +44,10 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
+           <a
+            href={social.url}
+            className="h-auto w-auto flex flex-row items-center"
+            >
             <Image
               src={social.src}
               alt={social.name}
@@ -51,6 +55,7 @@ const Navbar = () => {
               width={24}
               height={24}
             />
+           </a> 
           ))}
         </div>
       </div>
