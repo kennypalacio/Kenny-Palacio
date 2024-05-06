@@ -1,3 +1,4 @@
+
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
@@ -49,6 +50,8 @@ const Navbar = () => {
             className="h-auto w-auto flex flex-row items-center"
             target="_blank"
             rel="noopener noreferrer"
+            key={social.id}
+            
             >
             <Image
               src={social.src}

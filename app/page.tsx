@@ -12,7 +12,6 @@ export default function Home() {
         <About/>
         <Projects/>
         <Skills/>
-        
       </div>    
    </main>
   );
