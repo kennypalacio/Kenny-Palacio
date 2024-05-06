@@ -37,3 +37,15 @@ export function slideInFromLeft(delay: number) {
       },
     },
   };
+
+  export const slideInFromBottom = {
+    hidden: { y: -100, opacity: 1 },
+    visible: {
+      y: 0,
+      opacity: 0,
+      transition: {
+        delay: 0.5,
+        duration: 0.5,
+      },
+    },
+  }

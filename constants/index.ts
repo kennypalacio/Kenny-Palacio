@@ -81,7 +81,7 @@ export const Skill_data = [
   ];
   
   export const Socials = [
-
+ 
     {
       name: "Github",
       src: "/gitwhite.png",

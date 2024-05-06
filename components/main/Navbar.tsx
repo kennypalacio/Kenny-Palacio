@@ -33,11 +33,11 @@ const Navbar = () => {
             <a href="#about" className="cursor-pointer">
               About
             </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
-            </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="#skills" className="cursor-pointer">
+              Skills
             </a>
           </div>
         </div>
@@ -47,6 +47,8 @@ const Navbar = () => {
            <a
             href={social.url}
             className="h-auto w-auto flex flex-row items-center"
+            target="_blank"
+            rel="noopener noreferrer"
             >
             <Image
               src={social.src}
