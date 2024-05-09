@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
-
 import { motion } from "framer-motion";
+import { Document, Page, pdfjs } from "react-pdf";
 import { slideInFromTop, slideInFromRight, slideInFromBottom } from "@/utils/motion";
 import Image from "next/image";
+
 
 const About = () => {
   return (
@@ -11,9 +12,9 @@ const About = () => {
     id="about"
     >
 
-    <div className="flex flex-row relative items-center justify-center mt-32 min-h-screen w-full h-full">
+    <div className="flex flex-row relative items-center justify-center mt-32 min-h-screen w-full h-full ">
       <div className="absolute w-auto top-10 z-[5]">
-        
+
         <motion.div
           animate=""
           variants={slideInFromBottom}
@@ -24,39 +25,55 @@ const About = () => {
             About{" "}
           </span>
         </motion.div>
+      
       </div>
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+       
+        <a
+        href="https://drive.google.com/file/d/1lqhMXH9tVrmu4YkzuXjCRGVXO6Msr9tu/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        
+        >
 
           <Image
             src="/LockTop.png"
             alt="Lock top"
             width={50}
             height={50}
-            className="w-[50px] translate-y-11 transition-all duration-200 group-hover:translate-y-2.5"
+            className="relative w-[50px] translate-y-11 transition-all duration-200 group-hover:translate-y-2.5 ml-[10px] z-1"
           />
           <Image
             src="/LockMain.png"
             alt="Lock Main"
             width={70}
             height={70}
-            className=" z-10"
+            className=" relative z-10"
           />
+        
+        </a>
         </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
+        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9] z-[20]">
+        <a
+        href="https://drive.google.com/file/d/1lqhMXH9tVrmu4YkzuXjCRGVXO6Msr9tu/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
           <h1 className="Welcome-text text-[20px]">Resume</h1>
+        </a>
         </div>
       </div>
-      <div className="w-full flex items-start justify-center absolute">
+      <div className="w-auto flex items-start justify-center absolute">
         <video
           loop
           muted
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-auto h-auto"
           src="/encryption.webm/"
         />
       </div>

@@ -18,7 +18,7 @@ import {
       >
         <SkillText />
   
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        <div className="w-auto h-auto flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Skill_data.map((image, index) => (
             <SkillDataProvider
               key={index}

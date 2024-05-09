@@ -12,7 +12,7 @@ const Ref: React.FC = () => {
 
   <div className="w-full h-full bg-transparent text-gray-200 p-[100px] z-[20]">
     <div className="w-full flex flex-col items-center justify-center m-auto">
-    <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+    <div className="w-auto h-auto flex flex-row items-center justify-around">
 
     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
       <a
@@ -39,7 +39,7 @@ const Ref: React.FC = () => {
 
     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
       <a
-        href="https://calendly.com/login"
+        href="mailto:kennypalacio22@gmail.com"
         className="flex flex-row text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         target="_blank"
         rel="noopener noreferrer"
