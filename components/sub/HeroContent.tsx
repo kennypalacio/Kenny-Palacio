@@ -48,8 +48,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I am a Programming enthusiast with experience in Website,
-          Mobile, Software developmentand, and Data Visualization. Check out my projects and skills.
+          I am a Network Tech with experience in Website,
+          Mobile, Software development. Check out my projects and skills.
         </motion.p>
        
         <motion.a

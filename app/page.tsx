@@ -6,7 +6,7 @@ import Ref from "@/components/sub/Ref";
 
 export default function Home() {
   return (
-   <main className= 'h-full w-full'>
+   <main className= 'h-auto w-auto'>
       <div className= 'flex flex-col gap-20'>
         <Hero/>
         <About/>

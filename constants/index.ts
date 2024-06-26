@@ -86,13 +86,15 @@ export const Skill_data = [
       id: 1,
       name: "Github",
       src: "/gitwhite.png",
-      url: "https://github.com/kennypalacio/KennyPalacio.github.io.git"
+      url: "https://github.com/kennypalacio/KennyPalacio.github.io.git",
+     
     },
     {
       id: 2,
       name: "Linkedin",
       src: "/linkedin.png",
-      url: "https://linkedin.com/in/kennypalacio"
+      url: "https://linkedin.com/in/kennypalacio",
+      
     },
   ];
   

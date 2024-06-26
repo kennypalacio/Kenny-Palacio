@@ -29,10 +29,10 @@ const About = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+        <div className="flex flex-col items-center ml group cursor-pointer w-auto h-auto">
        
         <a
-        href="https://drive.google.com/file/d/1lqhMXH9tVrmu4YkzuXjCRGVXO6Msr9tu/view?usp=sharing"
+        href="https://drive.google.com/file/d/1tX5oRml62F4XUNNvIj3LRzx2y331UaHM/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         
@@ -43,30 +43,23 @@ const About = () => {
             alt="Lock top"
             width={50}
             height={50}
-            className="relative w-[50px] translate-y-11 transition-all duration-200 group-hover:translate-y-2.5 ml-[10px] z-1"
+            className="relative w-[50px] translate-y-11 transition-all duration-200 group-hover:translate-y-2.5 ml-[25px] z-1"
           />
           <Image
             src="/LockMain.png"
             alt="Lock Main"
             width={70}
             height={70}
-            className=" relative z-10"
+            className=" relative z-10 ml-[15px]"
           />
-        
-        </a>
-        </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9] z-[20]">
-        <a
-        href="https://drive.google.com/file/d/1lqhMXH9tVrmu4YkzuXjCRGVXO6Msr9tu/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          <h1 className="Welcome-text text-[20px]">Resume</h1>
-        </a>
-        </div>
+      <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9] z-[20]">
+      <h1 className="Welcome-text text-[20px]">Resume</h1>
       </div>
-      <div className="w-auto flex items-start justify-center absolute">
+      </a>
+      </div>
+      </div>
+      <div className="w-auto h-auto flex items-start justify-center absolute">
         <video
           loop
           muted

@@ -14,7 +14,6 @@ const Projects = () => {
       </h1>
       
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-      
         <ProjectCard
           src="/NextWebsite.png"
           title="Modern Next.js Portfolio"
@@ -34,6 +33,7 @@ const Projects = () => {
           url="https://github.com/kennypalacio/KennyPalacio.github.io.git"
         />
       </div>
+
     </div>
   );
 };
